@@ -1,8 +1,8 @@
 version: '3'
 services:
   server:
-    # build: ./server
-    image: codebsod/cloudcomputinggroup21:latest
+    build: ./server
+    image: codebsod/cloudcomputinggroup21
     container_name: cloudcomputinggroup21
     depends_on:
       - "mongodb"
